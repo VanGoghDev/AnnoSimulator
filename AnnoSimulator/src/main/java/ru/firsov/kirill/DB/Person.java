@@ -12,4 +12,14 @@ public class Person {
         this.age = age;
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
+    }
 }
